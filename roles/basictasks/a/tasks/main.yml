@@ -1,0 +1,4 @@
+---
+ - name: test error basictask
+   template: src=test  dest=/tmp/a
+   ignore_errors: yes
